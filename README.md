@@ -1,8 +1,17 @@
 # flying-with-fsharp
 PoC of using F#/Fable with Google 3D Photorealistic Tiles
 
+Created for F# Adent 2023, the blog post is here: ""
+It is not finished but can serve value and be a base for the experiments of others.
+I use Feliz/Elmish/DaisyUI, DeckGL/TurfJS.
+
+TODO:
+- add possibility to cancel animations
+- add possibility to mix animations
+
+
 **Instructions**
-Update src/API_keys.fs with own API key to the Google Map Tile service. Read their docs/ pricing and make your keys appropriately restricted/secured when publishing your own work
+Update src/API_keys.fs with your own API key to the Google Map Tile service. Read their docs/ pricing and make your keys appropriately restricted/secured when publishing your own work
 
 - dotnet tool restore (for Fable/Femto)
 - npm i 
