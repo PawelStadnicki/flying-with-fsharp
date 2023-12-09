@@ -15,7 +15,7 @@ Update src/API_keys.fs with your own API key to the Google Map Tile service. Rea
 - npm start
 - visit url displayed in the console
 - adjust/extend/play/enjoy
-- 
+
 **TODO**:
 - add a possibility to cancel animations
 - add a possibility to mix animations
