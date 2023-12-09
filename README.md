@@ -5,10 +5,7 @@ Created for F# Adent 2023, the blog post is here: ""
 It is not finished but can serve value and be a base for the experiments of others.
 I use Feliz/Elmish/DaisyUI, DeckGL/TurfJS.
 
-TODO:
-- add possibility to cancel animations
-- add possibility to mix animations
-
+F# 8 :)
 
 **Instructions**
 Update src/API_keys.fs with your own API key to the Google Map Tile service. Read their docs/ pricing and make your keys appropriately restricted/secured when publishing your own work
@@ -18,7 +15,10 @@ Update src/API_keys.fs with your own API key to the Google Map Tile service. Rea
 - npm start
 - visit url displayed in the console
 - adjust/extend/play/enjoy
-
+- 
+**TODO**:
+- add a possibility to cancel animations
+- add a possibility to mix animations
 
 **About Google 3d tiles**
 You need the API key from the Google Maps Platform: https://developers.google.com/maps/documentation/tile/get-api-key
