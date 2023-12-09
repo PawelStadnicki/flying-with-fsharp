@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+      <EmbeddedResource Remove="Configuration\**" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="API_Keys.fs" />
+        <Compile Include="Browser\Geolocation.fs" />
+        <Compile Include="Styles\Typed.fs" />
+        <Compile Include="Json.fs" />
+
+        <Compile Include="Bindings\Deck.fs" />
+        <Compile Include="Bindings\TurfJS.fs" />
+        <Compile Include="Data\GeoData.fs" />
+        <Compile Include="App\Tiles.fs" />
+        <Compile Include="App\State.fs" />
+        <Compile Include="App\Places.fs" />
+        <Compile Include="App\Animations.fs" />
+        <Compile Include="App\Sidebar.fs" />
+        <Compile Include="App\App.fs" />
+        <None Include="index.html" />
+        <Compile Include="Components.fs" />
+        <Compile Include="Main.fs" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Fable.Browser.Navigator" Version="2.4.0" />
+        <PackageReference Include="Fable.Fetch" Version="2.6.0" />
+        <PackageReference Include="Fable.Geojson" Version="1.0.0" />
+        <PackageReference Include="Feliz" Version="2.7.0" />
+        <PackageReference Include="Feliz.DaisyUI" Version="4.2.0" />
+        <PackageReference Include="Feliz.Router" Version="4.0.0" />
+        <PackageReference Include="Feliz.UseElmish" Version="2.5.0" />
+        <PackageReference Include="Feliz.UseMediaQuery" Version="1.5.0" />
+        <PackageReference Include="Thoth.Fetch" Version="3.0.1" />
+        <PackageReference Include="Thoth.Json.Net" Version="11.0.0" />
+        <PackageReference Include="Zanaptak.TypedCssClasses" Version="1.0.0" />
+        <PackageReference Update="FSharp.Core" Version="8.0.100" />
+    </ItemGroup>
+</Project>
