@@ -204,4 +204,4 @@ out
 .ionide
 *.fs.js
 *.fs.js.map
-API_Keys.fs
+*/API_Keys.fs
