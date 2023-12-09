@@ -1,9 +1,17 @@
 # flying-with-fsharp
 PoC of using F#/Fable with Google 3D Photorealistic Tiles
 
+**Instructions**
+Update src/API_keys.fs with own API key to the Google Map Tile service. Read their docs/ pricing and make your keys appropriately restricted/secured when publishing your own work
+
+- dotnet tool restore (for Fable/Femto)
+- npm i 
+- npm start
+- visit url displayed in the console
+- adjust/extend/play/enjoy
 
 
-** About Google 3d tiles **
+**About Google 3d tiles**
 You need the API key from the Google Maps Platform: https://developers.google.com/maps/documentation/tile/get-api-key
 Put it in src/API_keys.fs while doing experiments and remember to restrict/hide when going to the public.
 Mind the costs of that service (~6$ for 1000 root requests).
